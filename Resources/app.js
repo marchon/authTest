@@ -112,7 +112,7 @@ loginBtn.addEventListener('click',function(e)
 {
     if (username.value != '' && password.value != '')
     {
-        loginReq.open("POST","http://swtorvids.com/chelsea/login.php");
+        loginReq.open("POST","http://yourserverhere.com/login.php");
         var params = {
             username: username.value,
             password: password.value
@@ -126,6 +126,6 @@ loginBtn.addEventListener('click',function(e)
 });
 
 
-// open tab group
+// open window
 
 win1.open();
